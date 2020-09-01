@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1598342650 source:c:\users\chetan\desktop\arrayadt\main.c
+	<stdio.h>
+	<stdlib.h>
+
