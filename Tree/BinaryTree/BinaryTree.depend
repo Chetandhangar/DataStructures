@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1599962206 source:c:\users\chetan\desktop\data structure\tree\binarytree\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	"Stack.h"
+
+1599948881 c:\users\chetan\desktop\data structure\tree\binarytree\queue.h
+
+1599960163 c:\users\chetan\desktop\data structure\tree\binarytree\stack.h
+
