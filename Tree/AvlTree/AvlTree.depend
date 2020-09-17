@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1600221190 source:c:\users\chetan\desktop\data structure\tree\avltree\main.c
+	<stdio.h>
+	<stdlib.h>
+
