@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1600406259 source:c:\users\chetan\desktop\data structure\sorting\mergesort\main.c
+	<stdio.h>
+	<stdlib.h>
+

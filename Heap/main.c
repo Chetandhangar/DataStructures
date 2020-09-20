@@ -13,6 +13,19 @@ void MaxHeapInsert(int A[], int n)
     }
     A[i]=temp;
 }
+void MinHeap(int A[], int n)
+{
+    int i=n;
+    int temp=A[i];
+
+    while(i>1 && temp<A[i/2])
+    {
+        A[i]=A[i/2];
+        i=i/2;
+
+    }
+    A[i]=temp;
+}
 
 void Display(int A[], int n)
 {
@@ -63,11 +76,18 @@ int main()
 {
     int A[]={0,10,20,30,25,5,40,35};
     int i;
-    for(i=1;i<=7;i++)   //Assumuing that  first element is already present in heap
+   /* for(i=1;i<=7;i++)   //Assumuing that  first element is already present in heap
     {
         MaxHeapInsert(A,i);
     }
     Display(A,7);
+    */
+    for(i=1;i<=7;i++)   //Assumuing that  first element is already present in heap
+    {
+        MinHeap(A,i);
+    }
+    Display(A,7);
+    printf("\n");
     printf("\n");
     for(i=7;i>1;i--)
     {

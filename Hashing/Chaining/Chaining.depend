@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1600513522 source:c:\users\chetan\desktop\data structure\sorting\chaining\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Chain.h"
+
+1600512666 c:\users\chetan\desktop\data structure\sorting\chaining\chain.h
+
